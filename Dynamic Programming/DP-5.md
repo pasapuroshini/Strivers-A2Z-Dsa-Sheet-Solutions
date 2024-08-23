@@ -1,32 +1,32 @@
-#Maximum Sum of Non adjacent Elements
+# Maximum Sum of Non-Adjacent Elements
 
+**Let's try out all subsequences with the given constraint**
 
+## Intuition
 
+Now, pick the one with the maximum sum. The approach involves printing all subsequences using recursion.
 
+## Approach
 
-**Lets try out all subsequences with the given constraint
+1. **Express every recursion in terms of the index.**
+2. **Do the possible operations on that index.**
+3. **Return the best result.**
 
-#Intuition
+## Step 1: Recursive PseudoCode
 
-Now pick the one with maximum sum
-Printing all subsequences - Using Recursion**
-1) Express every recursion in terms of index
-2)Do stuffs possible on that index
-3)Return best
+```java 
+f(ind, arr[]) {
+    if (ind == 0) return arr[ind];
+    if (ind < 0) return 0;
 
-
-**Step-1:Recursive PseudoCode**
-
-
-f(ind,arr[])
-{
-if(ind==0)return arr[ind]
-if(ind<0) return 0
-pick= arr[ind]+f(ind-2,arr)
-notPick=0+f(ind-1,arr)
-return max(pick,notPick)
+    int pick = arr[ind] + f(ind - 2, arr);
+    int notPick = 0 + f(ind - 1, arr);
+    
+    return max(pick, notPick);
 }
 
+
+'''
 **Memoization Approach**
 Code in java :
 
