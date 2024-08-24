@@ -1,3 +1,5 @@
+
+```java
 import java.util.*;
 
 public class BubbleSort{
@@ -19,8 +21,8 @@ public class BubbleSort{
         System.out.println();
     }
 }
-
-/* Time Complexity : O(n^2) for worst and avg cases Space Complexity : O(1)*/
+```
+ Time Complexity : O(n^2) for worst and avg cases Space Complexity : O(1)
 
 
 
