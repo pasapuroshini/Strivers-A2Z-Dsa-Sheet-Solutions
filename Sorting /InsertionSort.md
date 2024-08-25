@@ -2,6 +2,7 @@
 Select an element in each iteration from unsorted array(using a loop)
 Place it in its corresponding position in sorted part and shift the remaining elements accordingly
 theinner loop basically shifts the elements using swapping.
+Divides the array into two parts sorted and unsorted and sorts the unsorted array in each iteration.
 
 ```java
 import java.util.*;
