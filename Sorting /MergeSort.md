@@ -16,7 +16,7 @@ private static void merge(int[] arr,int low,int mid, int high)
 ArrayList<Integer>temp= new ArrayList<>();
 int left=low;
 int  right=mid+1;
-while(left,=mid && right<=high)
+while(left<=mid && right<=high)
 {
 if (arr[left] <= arr[right]) {
                 temp.add(arr[left]);
