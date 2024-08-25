@@ -1,4 +1,5 @@
-/*Select minimum and swap */
+# Select minimum and swap 
+```
 import java.util.*;
 
 public class SelectionSort {
