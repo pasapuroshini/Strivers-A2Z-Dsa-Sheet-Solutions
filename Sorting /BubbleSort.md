@@ -1,4 +1,4 @@
-
+# pushes the maximum element in each iteration to the last
 ```java
 import java.util.*;
 
