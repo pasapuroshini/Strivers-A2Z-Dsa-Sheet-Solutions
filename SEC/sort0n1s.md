@@ -67,7 +67,7 @@ class SEC {
         int r = n - 1;
         
         // Two-pointer approach to sort the array
-        while (l < r) {
+        while (l < =r) {
             if (a[l] == 0) {
                 l++;
             } else if (a[r] == 1) {
