@@ -57,8 +57,11 @@ static void qs(List<Integer>arr,int low,int high)
 if(low<high)
 {
 int p= partition(arr,low,high);
+}
 qs(arr,low,p-1);
 qs(arr,p+1,high);
+}
+
 }
 ```
 
