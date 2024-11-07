@@ -1,7 +1,7 @@
-'''
+***Java Implementation***
+```
 import java.util.*;
-
-public class tuf {
+Public class Solution {
 
     public static void main(String[] args) {
         stack s = new stack();
@@ -34,6 +34,7 @@ class stack {
     int size() {
         return q.size();
     }
-    }
-    ```
+}
+
+```
    <img width="624" alt="Screenshot 2024-11-07 at 6 50 47 PM" src="https://github.com/user-attachments/assets/95be61d3-80a0-40d5-aa40-77aadcb19411">
