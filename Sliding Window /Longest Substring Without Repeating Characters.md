@@ -1,7 +1,13 @@
 # **Problem Statement**: Given a String, find the length of longest substring without any repeating character.
 <img width="569" alt="Screenshot 2024-12-26 at 12 10 59 PM" src="https://github.com/user-attachments/assets/433431db-8966-47d6-ab32-2aeaeca131ae" />
+
+
 # BruteForce Approach:
+
+
 Creating a hash set in every iteration, and checking each character exist in the map, if exists: calculate the length of the substring till then and update maxlength accordingly ,else add it to the hashset.
+
+
 ```
 import java.util.*;
 public class Main {
@@ -28,11 +34,14 @@ public class Main {
     }
 }
 ```
+
+
 Time complexity:O(n^2)-> 2 loops
 Space complexity:O(n)-> Using hashset.
 
 
 # Optimized Approach 1:
+
 1. **Initialize Two Pointers:**
    - Start with two pointers, `left` and `right`, to represent the starting and ending positions of the substring.
    - Set `left` to 0 and let `right` traverse the string.
@@ -52,6 +61,11 @@ Space complexity:O(n)-> Using hashset.
 5. **Process Entire String:**
    - Continue moving the `right` pointer until it reaches the end of the string.
    - This ensures every character is processed efficiently, resulting in a time complexity of \(O(n)\).
+  
+
+
+
+
 ```
 import java.util.*;
 
