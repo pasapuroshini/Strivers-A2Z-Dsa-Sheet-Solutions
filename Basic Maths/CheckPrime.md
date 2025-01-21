@@ -42,9 +42,7 @@ public class Main {
     }
 }
 ```
-Time Complexity:
-Best Case: O(1) (if the number is 1 or not prime)
-Average and Worst Case: O(n)
+Time Complexity: O(n)
 
 
 Space Complexity: O(1)
@@ -127,10 +125,6 @@ public class Main {
     }
 }
 ```
-Time Complexity
-Best Case: O(1) (if the number is 1 or not prime)
+Time Complexity: O(√n)
 
-Average and Worst Case: O(√n)
-
-Space Complexity
 Space Complexity: O(1)
