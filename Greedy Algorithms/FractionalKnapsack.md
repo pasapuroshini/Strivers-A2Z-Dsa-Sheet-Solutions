@@ -21,18 +21,19 @@ Given weights and values of n items, the goal is to maximize the total value in 
     
 2.  Sort items by the ratio in descending order.
     
-3.  Initialize totalValue = 0 and iterate through the sorted list:
+3.  Initialize `finalValue = 0` and iterate through the sorted list:
     
     *   If the item can fit, add its full value to totalValue.
         
     *   Otherwise, add the fraction of the item that fits to totalValue.
         
-4.  Return totalValue.
+4.  Return `finalValue.`
     
 
 #### **Code Implementation in Java**
+```
 
-`  import java.util.*;
+ import java.util.*;
 class Item {
   int value, weight;
   Item(int x, int y) {
@@ -84,15 +85,15 @@ public class solve{
         double ans = fractionalKnapsack(weight, arr, n);
         System.out.println("The maximum value is "+ans);
     }
-}  `
+}  
+
+```
 
 #### **Time Complexity**
 
-*   Sorting items: O(nlog⁡n)O(n \\log n)O(nlogn)
+*   Sorting items: O(nlogn)
     
-*   Iterating through items: O(n)O(n)O(n)**Total:** O(nlog⁡n)O(n \\log n)O(nlogn)
+*   Iterating through items: O(n)  **Total:** O(nlog⁡n+n)
     
 
-#### **Space Complexity**
-
-*   Sorting overhead: O(n)O(n)O(n)
+#### **Space Complexity** O(1) 
