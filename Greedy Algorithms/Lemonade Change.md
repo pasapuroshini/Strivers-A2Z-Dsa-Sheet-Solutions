@@ -22,6 +22,20 @@ Given a queue of customers with `$5`, `$10`, or `$20` bills, determine if we can
 5. **Return Final Result:**  
    If all customers are served correctly, return `true`.
 
+
+<img width="341" alt="Screenshot 2025-01-30 at 4 31 51 PM" src="https://github.com/user-attachments/assets/4b06839b-5dc4-4db4-8c3a-9a36bd931a03" />
+
+
+
+
+
+
+
+
+
+
+
+
 ## Complexity Analysis
 - **Time Complexity:** `O(n)` (Iterate through the list once)
 - **Space Complexity:** `O(1)` (Only two integer variables are used)
@@ -32,7 +46,7 @@ Input: [5, 5, 5, 10, 20]
 Output: true
 ```
 
-<img width="341" alt="Screenshot 2025-01-30 at 4 31 51 PM" src="https://github.com/user-attachments/assets/4b06839b-5dc4-4db4-8c3a-9a36bd931a03" />
+
 
 
 
