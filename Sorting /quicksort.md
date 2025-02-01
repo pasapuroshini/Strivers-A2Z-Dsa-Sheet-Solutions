@@ -1,20 +1,48 @@
-# QuickSort
-->Divide and conquer algorithm
-->Does not use extra array for sorting(uses auxiliary stack space)
--->using recursion
-Approach:
-pick a pivot element and place it in its correct place in sorted array.
-shift smaller elements (<pivot) on left of pivot and larger ones to the right
-pivot can be (first element ,last element, median ,any random element)of array
+QuickSort
+=========
 
+Overview
+--------
 
-The algorithm steps are the following for the quickSort() function:
-Initially, the low points to the first index and the high points to the last index(as the range is n i.e. the size of the array). 
-After that, we will get the index(where the pivot should be placed after sorting) while shifting the smaller elements on the left and the larger ones on the right using a partition() function discussed later.
-Now, this index can be called the partition index as it creates a partition between the left and the right unsorted subarrays.
-After placing the pivot in the partition index(within the partition() function specified), we need to call the function quickSort() for the left and the right subarray recursively. So, the range of the left subarray will be [low to (partition index - 1)] and the range of the right subarray will be [(partition index + 1) to high]. 
+*   **Divide and conquer algorithm**
+    
+*   **Does not use extra array for sorting** (uses auxiliary stack space)
+    
+*   Uses **recursion**
+    
 
+Approach
+--------
 
+1.  Pick a **pivot** element and place it in its correct position in the sorted array.
+    
+2.  Shift **smaller elements (< pivot)** to the left of the pivot and **larger ones** to the right.
+    
+3.  The pivot can be:
+    
+    *   First element
+        
+    *   Last element
+        
+    *   Median
+        
+    *   Any random element
+        
+
+Algorithm Steps
+---------------
+
+1.  Initially, **low** points to the first index and **high** points to the last index.
+    
+2.  The **partition()** function finds the index where the pivot should be placed while shifting the smaller elements to the left and the larger ones to the right.
+    
+3.  The pivot's position is called the **partition index**, which separates the left and right subarrays.
+    
+4.  Recursively call **quickSort()** on:
+    
+    *   Left subarray → **low to (partition index - 1)**
+        
+    *   Right subarray → **(partition index + 1) to high**
 
 ```
 import java.util.*;
@@ -65,6 +93,10 @@ qs(arr,p+1,high);
 }
 ```
 
+
+
+
+<img width="681" alt="Screenshot 2025-02-01 at 12 20 03 PM" src="https://github.com/user-attachments/assets/feee9b8b-a605-42e9-8663-8c6a0e159ba0" />
 
 
 
