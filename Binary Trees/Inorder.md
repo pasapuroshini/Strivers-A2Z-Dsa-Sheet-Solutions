@@ -1,7 +1,8 @@
 # Inorder Traversal
 
 
-<img width="359" alt="Screenshot 2025-02-11 at 6 51 48 PM" src="https://github.com/user-attachments/assets/823e43d6-18c2-4ba1-b651-3ca85f383ff8" />
+<img width="702" alt="Screenshot 2025-02-11 at 6 58 48 PM" src="https://github.com/user-attachments/assets/9198027e-5468-45c4-acca-c0e14c5000c4" />
+
 
 ### Approach Explanation:
 
