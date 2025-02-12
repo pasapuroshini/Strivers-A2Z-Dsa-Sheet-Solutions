@@ -37,9 +37,9 @@ At any step, you have **two choices**:
 
 We use an **array dp\[\]** to store previously computed values.
 
+<img width="614" alt="Screenshot 2025-02-12 at 5 56 37 PM" src="https://github.com/user-attachments/assets/271dbe39-3e9c-4957-aacc-301bb522f65c" />
 
 
-<img width="425" alt="Screenshot 2025-02-12 at 5 54 09 PM" src="https://github.com/user-attachments/assets/b51f82fb-f263-4645-97ff-6605481eac29" />
 
 
 **Time Complexity: O(N)**
