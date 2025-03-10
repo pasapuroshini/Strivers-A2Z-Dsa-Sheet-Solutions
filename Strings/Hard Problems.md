@@ -2,7 +2,7 @@
 
 # Minimum Add to make Parameters Valid
 
-(Click Here)[https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/]
+[Click Here](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
 
 ### **Understanding the Problem**
 
